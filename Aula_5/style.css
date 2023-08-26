@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 26, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: rgb(153, 0, 224);
+    width: 400px;
+    height: 450px;
+    display: flex;
+    border-radius: 3%;
+}
+
+body section div img {
+    object-position: top bottom;
+    width: 45%;
+    height: 35%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+section button.logar{
+    background-color:green;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+section button.sair{
+    background-color:red;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+section div p{
+    font-size: 25;
+    
+}
+
+
+div {
+    margin: 3px;
+}
