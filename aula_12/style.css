@@ -1,0 +1,62 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;  
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image:url('img/aniversario.jpg') ;
+    background-position: center center;
+    background-size: cover;
+
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+main {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px white;
+
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    backdrop-filter: blur(10px);
+}
+
+.contador-elemento {
+    text-align: center;
+    margin: 6px;
+}
+
+.contador-elemento span {
+    font-size: 15px;
+}
+
+p {
+    font-size: 30px;
+    margin: 0 2px;
+    line-height: 1;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(86, 86, 86, 0.741);
+    padding: 0 10px;
+    border-radius: 5px;
+    font-style: italic;
+}
