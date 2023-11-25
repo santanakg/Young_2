@@ -73,3 +73,11 @@ button:hover{
 button:active {
     background-color: purple;
 }
+
+.resetar {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
