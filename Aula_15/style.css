@@ -1,0 +1,19 @@
+body {
+    color: purple;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(90deg, purple, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    border-radius: 15% 0 10% 0;
+}
+
+.button {
+    width: 90px;
+    height: 30px;
+}
